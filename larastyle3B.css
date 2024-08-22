@@ -1,0 +1,49 @@
+body{
+    color: white;
+    background: blueviolet; /* Corrigido "backgroud" para "background" */
+    margin: 0px; /* Corrigido "opx" para "0px" */
+}
+
+header{
+    border-bottom: solid 2px violet; /* Corrigido "border-botton" para "border-bottom" e removido ":" extra */
+    padding: 20px;
+    font-size: 32px;
+    color: white;
+}
+
+.chamada{
+    background: blueviolet;
+    padding-bottom: 80px; /* Corrigido "padding-botton" para "padding-bottom" */
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%; /* Corrigido "martin-right" para "margin-right" */
+}
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 25px;
+}
+img{
+    height: 200px;}
+
+.categoria-videos {
+    display: flex;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.categoria-videos img{
+     opacity: 0.5;
+}
+.categoria-videos img:hover{
+    opacity:1.0;
+    border: 1px solid blueviolet;
+}
